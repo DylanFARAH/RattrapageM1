@@ -81,7 +81,6 @@ app.get('/',(req,res)=>{
     res.render('index',{message : req.query.message})
 });
 
-
 // ------------------------
 // START SERVER
 // ------------------------

@@ -127,7 +127,6 @@ app.get('/',(req,res)=>{
     res.render('index.html',{message : req.query.message})
 });
 
-
 // ------------------------
 // START SERVER
 // ------------------------
