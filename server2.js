@@ -42,15 +42,7 @@ PizzaSchema = new Schema({
     nom : { type : String, required : true},
     desc : String,
     ingredients : { type : String, required : true},
-    qt : { type : int, required : true}
-});
-
-let IngredientSchema = new Schema({
-    id : String,
-    nom : { type : String, required : true},
-    mesure : { type : String, required : true},
-    desc : { type : String, required : true},
-    tmp_cuisson : { type : double, required : true}
+    qt : { type : String, required : true}
 });
 
 mongoose.model('Pizza', PizzaSchema);
@@ -92,7 +84,7 @@ let IngredientSchema = new Schema({
     nom : { type : String, required : true},
     mesure : { type : String, required : true},
     desc : { type : String, required : true},
-    tmp_cuisson : { type : double, required : true}
+    tmp_cuisson : { type : String, required : true}
 });
 
 mongoose.model('Ingredient', IngredientSchema);
@@ -132,7 +124,7 @@ app.delete('/ingredients/:idIngredient',(req, res)=>{
 // ROUTES VUES
 // ------------------------
 app.get('/',(req,res)=>{
-    res.render('index',{message : req.query.message})
+    res.render('index.html',{message : req.query.message})
 });
 
 

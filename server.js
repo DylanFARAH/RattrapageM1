@@ -14,12 +14,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended : true}));
 
 // - Gestion des vues
-/*let helpers 	= require('view-helpers'),
+let helpers 	= require('view-helpers'),
 	consolidate = require('consolidate');
 
 app.engine('html', consolidate['mustache']);
 app.set('view engine', 'html');
-app.set('views', __dirname + '/templates');*/
+app.set('views', __dirname + '/templates');
 
 // ------------------------
 // ROUTES RESOURCES
@@ -77,9 +77,9 @@ app.delete('/ingredients/:idIngredients',(req, res)=>{
 // ------------------------
 // ROUTES VUES
 // ------------------------
-/*app.get('/',(req,res)=>{
+app.get('/',(req,res)=>{
     res.render('index',{message : req.query.message})
-});*/
+});
 
 
 // ------------------------
