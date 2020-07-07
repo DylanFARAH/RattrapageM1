@@ -9,4 +9,4 @@
 - Un back avec une API Rest exposé sur le port 3000
 - Une base de données mongo
 
-#PS : server2.js pour la partie dockers je me suis tromper au niveau des branches, il n'est pas sencé se retrouvé sur la branche DylanFarah 
+#PS : server2.js pour la partie dockers je me suis tromper au niveau des branches, il n'est pas sencé se retrouvé sur la branche DylanFarah tout comme le server.js dans la branch Docker qui ne doit pas y etre
