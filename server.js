@@ -53,6 +53,27 @@ app.delete('/pizzas/:idPizza',(req, res)=>{
 	res.status(204).json()
 })
 
+app.get('/ingredients',(req, res)=>{
+	res.status(200).json(temp)
+})
+
+app.post('/ingredients',(req, res)=>{
+	temp.push(req.body)
+	res.status(200).json(req.body)
+})
+
+app.get('/ingredients/:idIngredients',(req, res)=>{
+	res.status(200).json(temp.pop())
+})
+
+app.put('/ingredients/:idPizza',(req, res)=>{
+	res.status(204).json()
+})
+
+app.delete('/ingredients/:idIngredients',(req, res)=>{
+	res.status(204).json()
+})
+
 // ------------------------
 // ROUTES VUES
 // ------------------------

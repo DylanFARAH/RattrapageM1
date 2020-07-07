@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/DylanFARAH/RattrapageM1#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "consolidate": "^0.15.1",
+    "express": "^4.17.1",
+    "mustache": "^3.0.1",
+    "view-helpers": "^0.2.0"
   }
 }
