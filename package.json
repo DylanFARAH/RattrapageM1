@@ -1,0 +1,19 @@
+{
+  "name": "rattrapagem1",
+  "version": "1.0.0",
+  "description": "Rattrape M1 Tchenolog",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DylanFARAH/RattrapageM1.git"
+  },
+  "author": "Dylan FARAH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DylanFARAH/RattrapageM1/issues"
+  },
+  "homepage": "https://github.com/DylanFARAH/RattrapageM1#readme"
+}
