@@ -2,7 +2,7 @@
   "name": "rattrapagem1",
   "version": "1.0.0",
   "description": "Rattrape M1 Tchenolog",
-  "main": "server.js",
+  "main": "server2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
