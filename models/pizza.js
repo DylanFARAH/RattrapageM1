@@ -13,7 +13,7 @@ class Pizza
         nom : { type : String, required : true},
         desc : String,
         ingredients : { type : String, required : true},
-        qt : { type : String, required : true}
+        qt : { type : int, required : true}
     });
     
     addIngrediant()
